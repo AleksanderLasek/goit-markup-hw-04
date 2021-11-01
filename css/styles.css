@@ -52,9 +52,7 @@
 .menu-contact a:hover,
 .menu-contact a:focus,
 .address-list a:hover,
-.address-list a:focus,
-.menu-tel svg,
-.menu-mail svg {
+.address-list a:focus {
   color: #2196f3;
 }
 
@@ -72,7 +70,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   width: 696px;
   margin-bottom: 30px;
 }
@@ -103,10 +101,25 @@
 .header {
   display: flex;
   height: 600px;
-  background: #2f303a;
+  background-color: #2f303a;
+  background-image: url('../images/efektywne.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.strengths-icon {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .strengths h3 {
@@ -516,6 +529,11 @@ img {
 .menu-mail svg,
 .menu-tel svg {
   fill: #757575;
+}
+
+.menu-mail svg:hover,
+.menu-tel svg:hover {
+  fill: #2196f3;
 }
 
 .menu-tel {
