@@ -104,6 +104,7 @@
   height: 600px;
   background-color: #2f303a;
   background-image: url('../images/efektywne.jpg');
+
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,26 +149,6 @@
 .twitter-icon:hover,
 .facebook-icon:hover {
   fill: #ffffff;
-}
-
-.instagram-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.twitter-icon {
-  width: 20px;
-  height: 16.25px;
-}
-
-.facebook-icon {
-  width: 10px;
-  height: 20px;
-}
-
-.linkedin-icon {
-  width: 20px;
-  height: 20px;
 }
 
 .team-card-link {
@@ -241,8 +222,6 @@
 }
 
 .clients-icon-background svg {
-  width: 106px;
-  height: 60.04px;
   fill: #afb1b8;
 }
 
