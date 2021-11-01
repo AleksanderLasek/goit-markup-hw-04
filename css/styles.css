@@ -52,7 +52,9 @@
 .menu-contact a:hover,
 .menu-contact a:focus,
 .address-list a:hover,
-.address-list a:focus {
+.address-list a:focus,
+.menu-tel svg,
+.menu-mail svg {
   color: #2196f3;
 }
 
@@ -505,9 +507,20 @@ img {
 }
 
 .menu-mail {
-  width: 135px;
+  display: flex;
+  width: 161px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-mail svg,
+.menu-tel svg {
+  fill: #757575;
 }
 
 .menu-tel {
-  width: 110px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
